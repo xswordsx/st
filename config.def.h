@@ -1,11 +1,11 @@
 /* See LICENSE file for copyright and license details. */
-#include "./colors_alacritty.h"
+#include "./colors/alacritty.h"
 /*
  * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=32:antialias=true:autohint=true";
+static char *font = "Hack:pixelsize=16:antialias=true:autohint=true";
 // static char *font = "TerminessTTF NerdFont Mono:pixelsize=30:antialias=true:autohint=true";
 static int borderpx = 0;
 
